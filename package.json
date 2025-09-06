@@ -7,9 +7,9 @@
   "type": "commonjs",
   "description": "",
   "scripts": {
-    "build": "tsc",
     "start": "node ./dist/index.js",
     "dev": "nodemon",
+    "build": "tsc",
     "postinstall": "prisma generate"
   },
   "devDependencies": {
